@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         hasError = true;
 
         // Remove existing content and display error message
-        wordCountElement.innerHTML = `<p class="error-message">Site yüklenirken bir şeyler ters gitti. Sayfayı yenilemeyi deneyiniz.</p>`;
+        wordCountElement.innerHTML = `<p class="error-message">Sözlük, yerçekimsiz ortamda. Yüzeye çıkmasını bekliyoruz.</p>`;
 
         // Hide other elements
         searchContainer.classList.add('error'); 
